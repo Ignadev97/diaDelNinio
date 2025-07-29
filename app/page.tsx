@@ -210,7 +210,7 @@ export default function Component() {
               <span className="font-semibold text-center sm:text-left">
                 {" "}
                 {/* Added text-center for mobile */}
-                España 1844, San Miguel de Tucumán, Argentina
+                España 1844, San Miguel de Tucumán
               </span>
             </div>
           </div>

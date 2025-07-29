@@ -109,7 +109,7 @@ export default function Component() {
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
             Te invitamos a compartir una tarde increíble llena de alegría,
-            juegos y sorpresas para los más pequeños. ¡No te lo puedes perder!
+            juegos y sorpresas para los más pequeños. ¡No te lo podés perder!
           </p>
           <Button
             size="lg"
@@ -197,7 +197,7 @@ export default function Component() {
           <div className="space-y-8 mb-12">
             <div className="flex items-center justify-center gap-4 text-xl md:text-2xl">
               <Calendar className="w-8 h-8" />
-              <span className="font-semibold">Sábado 10 de Agosto</span>
+              <span className="font-semibold">Domingo 10 de Agosto</span>
             </div>
 
             <div className="flex items-center justify-center gap-4 text-xl md:text-2xl">
@@ -329,7 +329,7 @@ export default function Component() {
               ¡Qué emoción tenerte en nuestro gran festejo!
             </p>
             <p className="text-gray-600">
-              Recuerda: <strong>Sábado 10 de Agosto a las 15:00 hs</strong>
+              Recordá: <strong>Domingo 10 de Agosto a las 15:00 hs</strong>
             </p>
             <p className="text-gray-600">
               📍 España 1844, San Miguel de Tucumán

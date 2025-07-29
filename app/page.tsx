@@ -311,7 +311,7 @@ export default function Component() {
             la comunidad de conductores de Uber Moto en Tucumán.
           </p>
           <p className="text-gray-600 text-lg flex items-center justify-center gap-2 mt-4">
-            Desarrollado por <a href="https://portfolionachotello.netlify.app/es/" className="text-blue-700">Ignacio Tello</a>
+            Desarrollado por <a href="https://wa.me/+5492613421582" className="text-blue-700">Ignacio Tello</a>
           </p>
         </div>
       </footer>

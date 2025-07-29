@@ -193,21 +193,23 @@ export default function Component() {
           <h2 className="text-4xl md:text-5xl font-bold mb-16">
             ¡Te esperamos!
           </h2>
-
           <div className="space-y-8 mb-12">
-            <div className="flex items-center justify-center gap-4 text-xl md:text-2xl">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xl md:text-2xl">
               <Calendar className="w-8 h-8" />
               <span className="font-semibold">Domingo 10 de Agosto</span>
             </div>
 
-            <div className="flex items-center justify-center gap-4 text-xl md:text-2xl">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xl md:text-2xl">
               <Clock className="w-8 h-8" />
-              <span className="font-semibold">A partir de las 15:00 hs</span>
+              <span className="font-semibold">A partir de las 14:00 hs</span>
             </div>
 
-            <div className="flex items-center justify-center gap-4 text-xl md:text-2xl">
-              <MapPin className="w-8 h-8" />
-              <span className="font-semibold">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xl md:text-2xl">
+              <MapPin className="w-8 h-8 mb-2 sm:mb-0" />{" "}
+              {/* Added mb-2 for vertical spacing on mobile */}
+              <span className="font-semibold text-center sm:text-left">
+                {" "}
+                {/* Added text-center for mobile */}
                 España 1844, San Miguel de Tucumán, Argentina
               </span>
             </div>
@@ -305,13 +307,20 @@ export default function Component() {
       <footer className="py-12 px-4 bg-gray-100">
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
           <p className="text-gray-600 text-lg flex items-center justify-center gap-2">
-            Un evento hecho con </p>
-            <span><Heart className="w-5 h-5 text-red-500 fill-current" /></span>
-            <p>  por y para
-            la comunidad de conductores de Uber Moto en Tucumán.
+            Un evento hecho con{" "}
+          </p>
+          <span>
+            <Heart className="w-5 h-5 text-red-500 fill-current" />
+          </span>
+          <p>
+            {" "}
+            por y para la comunidad de conductores de Uber Moto en Tucumán.
           </p>
           <p className="text-gray-600 text-lg flex items-center justify-center gap-2 mt-4">
-            Desarrollado por <a href="https://wa.me/+5492613421582" className="text-blue-700">Ignacio Tello</a>
+            Desarrollado por{" "}
+            <a href="https://wa.me/+5492613421582" className="text-blue-700">
+              Ignacio Tello
+            </a>
           </p>
         </div>
       </footer>

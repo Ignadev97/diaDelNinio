@@ -338,7 +338,7 @@ export default function Component() {
               ¡Qué emoción tenerte en nuestro gran festejo!
             </p>
             <p className="text-gray-600">
-              Recordá: <strong>Domingo 10 de Agosto a las 15:00 hs</strong>
+              Recordá: <strong>Domingo 10 de Agosto a las 14:00 hs</strong>
             </p>
             <p className="text-gray-600">
               📍 España 1844, San Miguel de Tucumán
